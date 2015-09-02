@@ -142,3 +142,8 @@ title = "Wisconsin Web Development and Hosting with CGSmith.net"
 		[[params.footer.social]]
 			icon = "fa-key"
 			link = "https://keybase.io/cgsmith"
+
+		# Quick Links
+		[[params.footer.quicklinks]]
+			text = "Powered by Hugo"
+			link = "http://gohugo.io"
