@@ -1,0 +1,26 @@
+version: 0.0
+os: linux
+files:
+   - source: /
+     destination: /var/www
+permissions:
+   - object: /var/www
+     pattern: "**"
+     owner: apache
+     group: apache
+     mode: 755
+     type:
+       - file
+hooks:
+   BeforeInstall:
+    - location: scripts/installhugo.sh
+      runas: root
+    - location: scripts/installapache.sh
+      runas: root
+    - location: scripts/startapache.sh
+      runas: root
+   AfterInstall:
+    - location: scripts/runhugo.sh
+      runas: root
+    - location: scripts/restartapache.sh
+      runas: root
