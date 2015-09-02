@@ -68,6 +68,15 @@ h6 {
     background-color: #222;
 }
 
+
+.btn-cta {
+    border-color: #fed136;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
 .btn-primary {
     border-color: #fed136;
     text-transform: uppercase;

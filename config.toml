@@ -21,6 +21,8 @@ title = "Wisconsin Web Development and Hosting with CGSmith.net"
 		about = "About"
 		pricing = "Pricing"
 		contact = "Contact"
+		ctatext = "Read the Blog!"
+		ctaurl = "http://blog.cgsmith.net/"
 
 	# Hero section
 	[params.hero]
