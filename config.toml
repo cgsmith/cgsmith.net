@@ -1,0 +1,144 @@
+# Site settings
+baseurl = "https://cgsmith.net/"
+languageCode = "en-us"
+title = "Wisconsin Web Development and Hosting with CGSmith.net"
+
+[params]
+    baseurl = "https://cgsmith.net/"
+	name = "Chris Smith"
+	description = "Milwaukee based, for hire, open source PHP web developer"
+
+    # - upload the generated site to your server
+    # - click the confirm link in the email from www.formspree.io
+	email = "chris@cgsmith.net"
+
+	# Navigation
+	[params.navigation]
+		brand = "CGSmith.net"
+		services = "Services"
+		portfolio = "Portfolio"
+		about = "About"
+		pricing = "Pricing"
+		contact = "Contact"
+
+	# Hero section
+	[params.hero]
+		title = "Making Your Technology Effortless"
+		buttonText = "Watch Our Testimonials"
+
+	# Services section
+	[params.services]
+		title = "Services"
+		subtitle = "We offer the most robust services of any technology provider in the Wisconsin area. If you don't see the service below contact us! We are happy to help!"
+
+		[[params.services.list]]
+			icon = "fa-shopping-cart"
+			title = "E-Commerce"
+			description = "We have experience in writing extensions for e-commerce systems such as Magento, OpenCart, Shopify, and more! Let us manage and help customize an e-commerce solution for your business."
+
+		[[params.services.list]]
+			icon = "fa-laptop"
+			title = "Responsive Design"
+			description = "Responsive websites mean that you will target your users on all available platforms such as: phones, tablets, laptops, and computers. Let our team of designers give your website a make over."
+
+		[[params.services.list]]
+			icon = "fa-sitemap"
+			title = "Web Development"
+			description = "We specialize in web development and programming. Our testimonials will validate it for you. Let our experienced team take you from a concept to a solution in no time."
+
+    # Pricing section
+	[params.pricing]
+		title = "Pricing"
+		subtitle = "Pricing varies on custom projects. We are happy to consult with you for free to figure out your needs and provide a **competitive** estimate."
+
+		[[params.pricing.list]]
+			icon = "fa-globe"
+			title = "Web Hosting"
+			description = "As low as **$5/mo** for small traffic websites."
+
+        [[params.pricing.list]]
+			icon = "fa-search"
+			title = "Domain Registration"
+			description = "Starting at **$15/yr** for .com domains."
+
+        [[params.pricing.list]]
+			icon = "fa-code"
+			title = "Programming and Consulting"
+			description = "Starts at **$75/hr**."
+
+	# Portfolio section
+	[params.portfolio]
+		title = "Portfolio"
+		subtitle = "We asked a few customers what they thought about our work - watch them and tell us what you think!"
+
+		[[params.portfolio.list]]
+		    video = "JVILzyZGpB4"
+
+		[[params.portfolio.list]]
+		    video = "3bV8loPe_Vs"
+
+		[[params.portfolio.list]]
+		    video = "Wn3J3NHsksE"
+
+    # About Section
+    [params.about]
+		title = "About"
+		subtitle = ""
+		img = "about.jpg"
+
+		# The items will be listed from the top to the bottom.
+		[[params.about.items]]
+			title = "Who Are We?"
+			description = "We are cheeseheads. We have been open for business in Wisconsin since 2011 and assist businesses in solving any technology question they have. We have worked with local companies and are the people behind the scenes making sure there products are shipped on time and there websites stay running smoothly."
+
+		[[params.about.items]]
+			title = "Why Choose Us?"
+			description = "Do you need your website hosted or application programmed? We are the right team for you. We will take care of everything that is needed from domain name to email issues. With over 15 years of combined experience, our team of developers and designers will get your business where it needs to be."
+
+
+	# Contact section
+	[params.contact]
+		title = "Contact us"
+		subtitle  = "Fill out the form below and I will get back to you within the business day. If it is urgent, please call."
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+	# Footer section
+	[params.footer]
+		copyright = "&copy; CGSmith.net"
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "https://twitter.com/cgsmith105"
+
+		[[params.footer.social]]
+			icon = "fa-google-plus"
+			link = "https://plus.google.com/+ChrisSmith105"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "https://www.linkedin.com/in/phpguy"
+
+		[[params.footer.social]]
+			icon = "fa-github"
+			link = "https://github.com/cgsmith"
+
+		[[params.footer.social]]
+			icon = "fa-key"
+			link = "https://keybase.io/cgsmith"
