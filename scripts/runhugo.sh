@@ -1,5 +1,5 @@
 #!/bin/bash
 cd /var/www
-hugo
 rm -rf public/ html/
+hugo
 mv /var/www/public /var/www/html
