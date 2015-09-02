@@ -1,4 +1,5 @@
 #!/bin/bash
 cd /var/www
 hugo
-mv /var/www/public/* /var/www/html
+rm -rf public/ html/
+mv /var/www/public /var/www/html
