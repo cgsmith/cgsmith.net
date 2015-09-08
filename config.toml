@@ -57,7 +57,7 @@ title = "Wisconsin Web Development and Hosting with CGSmith.net"
 		[[params.pricing.list]]
 			icon = "fa-globe"
 			title = "Web Hosting"
-			description = "As low as **$5/mo** for small traffic websites."
+			description = "As low as **$4/mo** for small traffic websites."
 
         [[params.pricing.list]]
 			icon = "fa-search"
